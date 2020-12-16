@@ -12,7 +12,7 @@ class BookList extends React.Component {
 componentDidMount= async()=>{
 
   try{ 
-    let response= await fetch("http://localhost:3001/books")
+    let response= await fetch(" https://test-1-strive.herokuapp.com/books")
     let booklist= await response.json()
     if (response.ok) {
       this.setState({ booklist:booklist})
