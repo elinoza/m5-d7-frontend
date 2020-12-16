@@ -65,6 +65,7 @@ componentDidMount= async()=>{
              </Row>
             </Col>
             <Col md={3} >
+             
              <AddComment elementId="1940026091" /> 
              <CommentsList elementId="1940026091" /> </Col>
           </Row>
