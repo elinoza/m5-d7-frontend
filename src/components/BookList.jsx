@@ -22,7 +22,8 @@ componentDidMount= async()=>{
       console.log("response error")
     }
   }
-  catch(error){console.log(error)}
+  catch(error)
+  {console.log(error)}
 
 }
   filterBookList = (input) => {
